@@ -1,0 +1,30 @@
+# Ignoriere den .venv Ordner
+.venv/
+
+# Ignoriere alle .env Dateien, egal in welchem Ordner
+.env
+
+# Python-spezifische Ausschlüsse
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyCharm-spezifische Ausschlüsse
+.idea/
+*.iml
+
+# VS Code spezifische Dateien und Ordner (falls du VS Code ebenfalls verwendest)
+.vscode/
+
+# Ignoriere Log-Dateien
+*.log
+
+# Ignoriere temporäre Dateien
+*.swp
